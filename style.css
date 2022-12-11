@@ -1,0 +1,51 @@
+.container{
+    width: 400px;
+    height: 500px;
+    border: 1px solid grey;
+    margin: 100px auto;
+}
+
+.display{
+    /* border: 1px solclass black; */
+    height: 100px;
+    position: relative;
+    background-color: midnightblue;
+}
+
+#display-text{
+    position: absolute;
+    right:3%;
+    
+    font-size: 3rem;
+    color: white;
+}
+
+.button-container{
+    /* border: 1px solclass black; */
+    height: 85%;
+}
+
+.button-row{
+    /* border: 1px solclass black; */
+    width: 400px;
+    height: 80px;
+    display: flex;
+}
+
+.button{
+    border: 0.5px solid grey;
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.button-text{
+    font-size: 1.5rem;
+    color: white;
+}
+
